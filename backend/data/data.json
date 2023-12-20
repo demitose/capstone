@@ -1,0 +1,137 @@
+{
+    "users": [
+        {
+          "firstName": "Alice",
+          "lastName": "Johnson",
+          "email": "alice.johnson@email.com",
+          "password": "alice123",
+          "address": "456 Oak Street, Townsville, TX, 78901"
+        },
+        {
+          "firstName": "Bob",
+          "lastName": "Smith",
+          "email": "bob.smith@email.com",
+          "password": "bob456",
+          "address": "789 Pine Avenue, Cityburgh, CA, 23456"
+        },
+        {
+          "firstName": "Charlie",
+          "lastName": "Davis",
+          "email": "charlie.davis@email.com",
+          "password": "charlie789",
+          "address": "123 Maple Lane, Villagetown, NY, 56789"
+        },
+        {
+          "firstName": "David",
+          "lastName": "Wilson",
+          "email": "david.wilson@email.com",
+          "password": "david987",
+          "address": "567 Cedar Road, Hamletville, FL, 12345"
+        },
+        {
+          "firstName": "Emma",
+          "lastName": "Anderson",
+          "email": "emma.anderson@email.com",
+          "password": "emma321",
+          "address": "789 Birch Street, Metropolis, CA, 67890"
+        },
+        {
+          "firstName": "Frank",
+          "lastName": "Brown",
+          "email": "frank.brown@email.com",
+          "password": "frank654",
+          "address": "234 Pine Lane, Suburbia, TX, 34567"
+        },
+        {
+          "firstName": "Grace",
+          "lastName": "Miller",
+          "email": "grace.miller@email.com",
+          "password": "grace789",
+          "address": "890 Elm Avenue, Downtown, NY, 45678"
+        },
+        {
+          "firstName": "Henry",
+          "lastName": "Clark",
+          "email": "henry.clark@email.com",
+          "password": "henry567",
+          "address": "345 Oak Road, Uptown, CA, 90123"
+        },
+        {
+          "firstName": "Isabel",
+          "lastName": "White",
+          "email": "isabel.white@email.com",
+          "password": "isabel123",
+          "address": "567 Maple Street, Outskirts, FL, 23456"
+        },
+        {
+          "firstName": "Jack",
+          "lastName": "Harris",
+          "email": "jack.harris@email.com",
+          "password": "jack456",
+          "address": "678 Cedar Lane, Countryside, TX, 78901"
+        },
+        {
+          "firstName": "Katherine",
+          "lastName": "Young",
+          "email": "katherine.young@email.com",
+          "password": "katherine789",
+          "address": "123 Birch Road, Riverside, CA, 23456"
+        },
+        {
+          "firstName": "Leo",
+          "lastName": "Martin",
+          "email": "leo.martin@email.com",
+          "password": "leo987",
+          "address": "345 Pine Avenue, Hillside, NY, 34567"
+        },
+        {
+          "firstName": "Mia",
+          "lastName": "Davis",
+          "email": "mia.davis@email.com",
+          "password": "mia321",
+          "address": "567 Oak Street, Lakeside, FL, 45678"
+        },
+        {
+          "firstName": "Noah",
+          "lastName": "Wilson",
+          "email": "noah.wilson@email.com",
+          "password": "noah654",
+          "address": "789 Elm Lane, Mountainview, TX, 90123"
+        },
+        {
+          "firstName": "Olivia",
+          "lastName": "Brown",
+          "email": "olivia.brown@email.com",
+          "password": "olivia123",
+          "address": "890 Maple Avenue, Seaside, CA, 23456"
+        },
+        {
+          "firstName": "Peter",
+          "lastName": "Smith",
+          "email": "peter.smith@email.com",
+          "password": "peter456",
+          "address": "234 Birch Road, Downtown, NY, 34567"
+        },
+        {
+          "firstName": "Quinn",
+          "lastName": "Anderson",
+          "email": "quinn.anderson@email.com",
+          "password": "quinn789",
+          "address": "345 Cedar Street, Midtown, FL, 45678"
+        },
+        {
+          "firstName": "Rachel",
+          "lastName": "Clark",
+          "email": "rachel.clark@email.com",
+          "password": "rachel987",
+          "address": "567 Oak Avenue, Suburbia, TX, 90123"
+        },
+        {
+          "firstName": "Samuel",
+          "lastName": "Harris",
+          "email": "samuel.harris@email.com",
+          "password": "samuel321",
+          "address": "678 Elm Road, Outskirts, CA, 23456"
+        }
+      ]
+}
