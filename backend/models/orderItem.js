@@ -1,6 +1,7 @@
 const { DataTypes, Model } = require("sequelize");
 let dbConnect = require("../dbConnect");
-
+const MakeupProduct = require("./makeupProduct");
+const User = require("./user");
 const sequelizeInstance = dbConnect.Sequelize;
 
 class orderItem extends Model {}
@@ -12,25 +13,31 @@ orderItem.init(
     autoIncrement: true,
     primaryKey: true,
   },
-    makeupID: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
+  userID: {
+    type: DataTypes.INTEGER, allowNull: true, required: false,
+    references: {
+        model: User, 
+        key: "userID", //column name of the referenced model
+        indexes: [{ unique: true }],
+    }
+},
     quantity: {
       type: DataTypes.STRING,
       allowNull: false,
       required: true,
     },
-    orderID: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      required: true,
-      unique: true,
+    MakeupProductID: {
+        type: DataTypes.INTEGER, allowNull: true, required: false,
+        references: {
+            model: MakeupProduct, 
+            key: "makeupID", 
+            indexes: [{ unique: true }],
+        }
     },
   },
   {
     sequelize: sequelizeInstance,
-    modelName: "orderItems", //use lowercase plural format
+    modelName: "orderItems", 
     timestamps: true,
     freezeTableName: true,
   }

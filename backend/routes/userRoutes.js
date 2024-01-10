@@ -17,7 +17,7 @@ router.delete("/:id", (req, res) => {
 });
 
 router.get("/init", (req, res) => {
-  Controllers.userController.storeCharacter(res);
+  Controllers.populateUserController.storeUser(res);
 });
 
 module.exports = router;

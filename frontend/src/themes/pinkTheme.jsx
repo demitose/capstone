@@ -1,10 +1,10 @@
 import { createTheme } from "@mui/material/styles";
 
-// create a new theme with shades of pink
+// create a new theme with shades of light pink
 export const pinkTheme = createTheme({
   palette: {
-    primary: { main: "#E91E63", contrastText: "#fff" }, // Pink
-    secondary: { main: "#F06292", contrastText: "#fff" }, // Light Pink
+    primary: { main: "#FFC0CB", contrastText: "#fff" }, // Light Pink
+    secondary: { main: "#FFB6C1", contrastText: "#fff" }, // Lighter Pink
   },
   typography: {
     fontFamily: "Montserrat",
@@ -14,7 +14,7 @@ export const pinkTheme = createTheme({
   shape: { borderRadius: 0 },
   components: {
     MuiCssBaseline: {
-      styleOverrides: `a { color: #F06292; }`, // Link color
+      styleOverrides: `a { color: #FFB6C1; }`, // Link color
     },
     MuiButton: { defaultProps: { variant: "contained" } },
     MuiTextField: { defaultProps: { variant: "filled" } },
